@@ -1,0 +1,76 @@
+.app__header
+{
+    background-color: var(--color-black);
+}
+
+.header-h1
+{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 80px;
+    font-size: 70px;
+}
+
+.app__wrapper-img img
+{
+    width: 70%;
+}
+
+.app__wrapper-info
+{
+    flex: 2;
+}
+
+.app__wrapper-img
+{
+    flex: 1;
+}
+
+.custom__btn
+{
+    padding: 15px 20px;
+    border-radius: 10px;
+    background: gold;
+    font-family: var(--font-base);
+    font-size: 1.4rem;
+    font-weight: 600;
+    transition: all 0.4s ease;
+}
+
+.custom__btn:hover
+{
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    .header-h1 {
+        font-size: 100px;
+        line-height: 130px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header-h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-h1 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header-h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
